@@ -14,7 +14,8 @@
         "test": "jest",
         "prepack": "npm run build",
         "lint": "npx eslint src --ext .js,.ts",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "husky:precommit": "npm run lint && npm test"
     },
     "repository": {
         "type": "git",
