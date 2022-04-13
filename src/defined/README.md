@@ -2,7 +2,7 @@
 
 ```typescript
 // import defined or polyfill into your src
-import "array.utils";
+import "@hansogj/array.utils";
 import { defined, definedList } from "array.utils/lib/defined";
 
 [1,2, null, undefined].defined() // => [1,2]
@@ -21,7 +21,7 @@ definedList([undefined, null]) // => []
 
 ```typescript
 import { Iterable, List } from "immutable";
-import { defined } from "array.utils/lib/defined";
+import { defined } from "@hansogj/array.utils/lib/defined";
 
 Iterable.prototype.defined = defined(Iterable.prototype.defined)
   ? Iterable.prototype.defined

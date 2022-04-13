@@ -2,12 +2,12 @@
 
 
 ```bash
-$>  npm i -s array.utils
+$>  npm i -s @hansogj/array.utils
 ```
 
 
 ```js
-import "array.utils";
+import "@hansogj/array.utils";
 ```
 
 Se usages in 
@@ -22,8 +22,8 @@ This package supports UMD import wia script-loading. _onEmpty_ and _flatMap_ are
 
 
 ```html
-<script src="../node_modules/array.utils/lib/index.js"></script>
-<script src="../node_modules/array.utils/lib/defined/index.js"></script>
+<script src="../node_modules/@hansogj/array.utils/lib/index.js"></script>
+<script src="../node_modules/@hansogj/array.utils/lib/defined/index.js"></script>
 ```
 in your `index.html`-file, and 
 

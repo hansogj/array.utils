@@ -1,7 +1,7 @@
 ## Enable call of callback function to empty arrays
 
 ``` js
-    import "array.utils";
+    import "@hansogj/array.utils";
     [1,2,3,4,5]
     .filter((item) =>  item > 10 ) //this should return an empty list
     .onEmpty(() => console.log('Ey! This is an empty list'));

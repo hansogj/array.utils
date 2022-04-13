@@ -2,7 +2,7 @@
 ## Flatten deep arrays
 
 ```js
-    import "array.utils";
+    import "@hansogj/array.utils";
     expect([[1],[2],[3]].flatMap(function (self) {return self})).toEqual([1,2,3]);
 ```
 
