@@ -1,5 +1,5 @@
 {
-    "name": "array.utils",
+    "name": "@hansogj/array.utils",
     "version": "1.0.0",
     "description": "utilizes js/ts arrays with onEmpty, defined and flatMap functions",
     "main": "lib/index.js",
