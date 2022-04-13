@@ -1,6 +1,6 @@
 {
     "name": "array.utils",
-    "version": "0.0.1-alpha",
+    "version": "1.0.0",
     "description": "utilizes js/ts arrays with onEmpty, defined and flatMap functions",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
